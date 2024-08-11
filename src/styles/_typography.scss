@@ -1,0 +1,14 @@
+:root {
+    --f-heading: 'Raleway', 'Helvetica Neue', 'Arial', sans-serif;
+    --f-body: 'Raleway', 'Helvetica Neue', 'Arial', sans-serif;
+}
+
+html, body {
+    font-family: var(--f-body);
+    font-weight: 400;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: var(--f-heading);
+    font-weight: 600;
+}
